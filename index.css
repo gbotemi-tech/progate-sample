@@ -123,17 +123,20 @@
 }
 
 @media (max-width: 450px) {
+    .welcome-section {
+        height: 550px;
+    }
     .welcome-message h1 {
-        font-size: 15px;
+        font-size: 20px;
     }
     .welcome-section .welcome-message {
-        padding-top: 150px;
+        padding-top: 100px;
     }
     .welcome-message h1 {
-        font-size: 350px;
+        font-size: 14px;
     }
     .email-sign-up {
-        padding-top: 10px;
+        padding-top: 3px;
     }
     .email-sign-up a {
         padding: 7px 10px;
@@ -183,12 +186,12 @@
 }
 @media (max-width: 570px) {
     .main {
-        height: 85rem;
+        height: 93rem;
     }
 }
-@media (max-width: 300px) {
+@media (max-width: 350px) {
     .main {
-        height: 95rem;
+        height: 100rem;
     }
 }
 
